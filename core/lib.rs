@@ -1,20 +1,20 @@
 // Copyright 2018-2021 the Deno authors. All rights reserved. MIT license.
-mod async_cancel;
-mod async_cell;
-mod bindings;
+pub mod async_cancel;
+pub mod async_cell;
+pub mod bindings;
 pub mod error;
-mod extensions;
-mod flags;
-mod gotham_state;
-mod inspector;
-mod module_specifier;
-mod modules;
-mod normalize_path;
-mod ops;
-mod ops_builtin;
-mod ops_json;
-mod resources;
-mod runtime;
+pub mod extensions;
+pub mod flags;
+pub mod gotham_state;
+pub mod inspector;
+pub mod module_specifier;
+pub mod modules;
+pub mod normalize_path;
+pub mod ops;
+pub mod ops_builtin;
+pub mod ops_json;
+pub mod resources;
+pub mod runtime;
 
 // Re-exports
 pub use futures;
